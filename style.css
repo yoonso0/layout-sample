@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#topmenu{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+}
+#topmenu ul li h3{
+    font-size: 20px;
+    width: 250px;
+}
+#topmenu ul li{
+    list-style: none;   
+    float: left;
+    line-height: 40px;
+    vertical-align: middle; 
+    text-align: center;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#topmenu .menulink{
+    text-decoration: none;
+    display: block;
+    color: white;
+    width:150px;
+    font-size: 12px;            
+    font-weight: bold;   
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topmenu .menulink:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(90, 89, 89);
+}
+#topmenu .sitelink{
+    color: white;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#main{
+    height: 620px;
+    background-color: rgb(47, 47, 47);
+    margin: auto;
+}
+#maintext{
+    display: block;
+    padding: 150px 0;
+}
+#maintext h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+#maintext h4{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+#maintext button{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: solid 1px white;
+    margin: auto;
+    display: block;
+}
+#maintext button a{
+    text-decoration: none;
+    color: white;
+}
+#first{
+    width: 100%;
+}
+#first_1{
+    width:  30%;
+    height: 540px;
+    color: black;
+    font-size: 30px;
+    margin: 210px 0 0 190px;
+    display: inline-block;
+}
+#first_1 h1{
+    display: inline-block;
+    margin-left: 88px;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#first_1 p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#first_1 button{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border: solid 1.5px black;
+    display: block;
+    margin: 30px 0 0 105px;
+}
+#first_1 button a{
+    color: black;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#first img{
+    width: 480px;
+    height: 500px;
+    margin-right: 121px;
+    float: right;
+    margin-top: 120px;
+}
+#second h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#second p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#second-1{
+    width: 100%;
+    height: 280px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#second_1 h1{
+    font-family: "Trebuchet MS", Dotum, Arial;
+    font-size: 45px;
+    font-weight: 1000;
+    text-align: center;
+}
+#second_1 h3{
+    font-family: "Trebuchet MS", Dotum, Arial;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 15px;
+}
+#second_1 p{
+    font-family: "Trebuchet MS", Dotum, Arial;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 15px;
+}
+#third h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum, Arial;
+    text-align: center;
+    display: block;
+}
+#third_img_1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+#third_img_2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#third_1 img{
+    width: 270px;
+    height: 270px;
+}
+#third_2 img{
+    width: 270px;
+    height: 270px;
+}
+#third_3 img{
+    width: 270px;
+    height: 270px;
+}
+#third_4 img{
+    width: 270px;
+    height: 270px;
+}
+#fourth h1{
+    font-size: 50px;
+    font-family: "Trebuchet MS", Dotum, Arial;
+    text-align: center;
+    margin-top: 100px;
+}
+#fourth p{
+    text-align: center;
+}
+#fourth h3{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 50px;
+}
+#last{
+    width: 80%;
+    height: 250px;
+    background-color: rgb(47, 47, 47);
+    display: block;
+    margin-top: 70px;
+    margin-left: 122px;
+}
+#last h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+#last p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#email{
+    width: 500px;
+    height: 30px;
+    margin-left: 140px ;
+    margin-top: 10px;
+    border-radius: 0;
+    border: solid 1.5px white;
+    background-color:  rgb(47, 47, 47);
+}
+input#submit{
+    width: 170px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 0;
+    background-color: white;
+    border: white;
+}
+input#submit:hover{
+    background-color: rgb(47, 47, 47);
+
+    color: white;
+}
+#last_text{
+    margin-top: 20px;
+    text-align: center;
+}
